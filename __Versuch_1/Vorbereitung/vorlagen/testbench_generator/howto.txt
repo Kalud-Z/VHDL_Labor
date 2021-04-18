@@ -1,0 +1,8 @@
+generate_testbench.tcl
+----------------------------------------------------------------------------------------------------------
+Skript über "Tools > Run Tcl Script..." ausführen
+
+-> Skript öffnet automatisch elaboriertes Design, erstellt Testbench, schließt elaboriertes Design und importiert Testbench in das Projekt
+
+- Voraussetzung: Projekt muss geöffnet und Top-Level-VHDL-Datei vorhanden sein
+- Clock und Reset werden nicht automatisch erkannt; im Testbench-Code werden die Platzhalter <clk> und <reset> verwendet
