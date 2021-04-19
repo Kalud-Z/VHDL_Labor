@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/Kalud/Desktop/Studium/Studium_ab_2020/SS2021/Faecher/VHDL/Labor/__Versuch_1/vivado/intro1/intro1.runs/synth_1/counter4.tcl"
+  variable script "C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/__Versuch_1/Vorbereitung/vivado/intro1/intro1.runs/synth_1/counter4.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,24 +70,21 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param synth.incrementalSynthesisCache C:/Users/Kalud/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-3892-DESKTOP-5M9BG86/incrSyn
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/Kalud/Desktop/Studium/Studium_ab_2020/SS2021/Faecher/VHDL/Labor/__Versuch_1/vivado/intro1/intro1.cache/wt [current_project]
-set_property parent.project_path C:/Users/Kalud/Desktop/Studium/Studium_ab_2020/SS2021/Faecher/VHDL/Labor/__Versuch_1/vivado/intro1/intro1.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/__Versuch_1/Vorbereitung/vivado/intro1/intro1.cache/wt [current_project]
+set_property parent.project_path C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/__Versuch_1/Vorbereitung/vivado/intro1/intro1.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-set_property ip_output_repo c:/Users/Kalud/Desktop/Studium/Studium_ab_2020/SS2021/Faecher/VHDL/Labor/__Versuch_1/vivado/intro1/intro1.cache/ip [current_project]
+set_property ip_output_repo c:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/__Versuch_1/Vorbereitung/vivado/intro1/intro1.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_vhdl -library xil_defaultlib C:/Users/Kalud/Desktop/Studium/Studium_ab_2020/SS2021/Faecher/VHDL/Labor/__Versuch_1/vivado/intro1/intro1.srcs/sources_1/imports/vorlagen_v1/counter4.vhd
+read_vhdl -library xil_defaultlib C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/__Versuch_1/Vorbereitung/vivado/intro1/intro1.srcs/sources_1/imports/vorlagen_v1/counter4.vhd
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -97,6 +94,9 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
+read_xdc C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/__Versuch_1/Vorbereitung/vivado/intro1/intro1.srcs/constrs_1/new/constr.xdc
+set_property used_in_implementation false [get_files C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/__Versuch_1/Vorbereitung/vivado/intro1/intro1.srcs/constrs_1/new/constr.xdc]
+
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 

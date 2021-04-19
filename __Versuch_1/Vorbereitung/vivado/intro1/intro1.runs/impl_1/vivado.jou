@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr 19 10:41:50 2021
+# Process ID: 15876
+# Current directory: C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/__Versuch_1/Vorbereitung/vivado/intro1/intro1.runs/impl_1
+# Command line: vivado.exe -log counter4.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source counter4.tcl -notrace
+# Log file: C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/__Versuch_1/Vorbereitung/vivado/intro1/intro1.runs/impl_1/counter4.vdi
+# Journal file: C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/__Versuch_1/Vorbereitung/vivado/intro1/intro1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source counter4.tcl -notrace

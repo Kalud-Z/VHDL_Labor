@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Kalud/Desktop/Studium/Studium_ab_2020/SS2021/Faecher/VHDL/Labor/__Versuch_1/vivado/intro1/intro1.runs/synth_1'
+HD_PWD='C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/__Versuch_1/Vorbereitung/vivado/intro1/intro1.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
