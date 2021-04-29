@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr 26 17:51:11 2021
+# Process ID: 18152
+# Current directory: C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/vivado/intro2/intro2.runs/synth_1
+# Command line: vivado.exe -log counter4_dec7seg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source counter4_dec7seg.tcl
+# Log file: C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/vivado/intro2/intro2.runs/synth_1/counter4_dec7seg.vds
+# Journal file: C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/vivado/intro2/intro2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source counter4_dec7seg.tcl -notrace

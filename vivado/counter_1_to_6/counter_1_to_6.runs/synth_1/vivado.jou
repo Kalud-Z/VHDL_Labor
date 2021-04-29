@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 27 16:03:25 2021
+# Process ID: 1540
+# Current directory: C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/vivado/counter_1_to_6/counter_1_to_6.runs/synth_1
+# Command line: vivado.exe -log count1to6.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source count1to6.tcl
+# Log file: C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/vivado/counter_1_to_6/counter_1_to_6.runs/synth_1/count1to6.vds
+# Journal file: C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/vivado/counter_1_to_6/counter_1_to_6.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source count1to6.tcl -notrace

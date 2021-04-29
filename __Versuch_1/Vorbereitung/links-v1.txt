@@ -8,7 +8,6 @@ https://en.wikipedia.org/wiki/Hardware_register
 
 https://en.wikipedia.org/wiki/Flip-flop_(electronics)
 
-https://www.youtube.com/watch?v=OfxYoQn7uJ4
 
 
 https://en.wikipedia.org/wiki/Synchronous_circuit
@@ -16,9 +15,25 @@ https://en.wikipedia.org/wiki/Synchronous_circuit
 https://en.wikipedia.org/wiki/Clock_signal
 
 
+https://en.wikipedia.org/wiki/Logic_analyzer
+
+https://en.wikipedia.org/wiki/Sequential_logic
+
+
+https://en.wikipedia.org/wiki/Duty_cycle
+
+
+
+
+
+
 
 
 __________________________________________________________________________________
+
+
+
+----------------------------------------------------------------------------------------------
 
 
 https://www.youtube.com/watch?v=OfxYoQn7uJ4
@@ -33,4 +48,12 @@ NOTES :
 https://www.youtube.com/watch?v=fpnE6UAfbtU
 
 Registers and RAM: Crash Course Computer Science___
+
+---------------------------------------------------------------------------------------------------
+
+
+https://www.youtube.com/watch?v=yILb9ddvYlQ
+https://www.youtube.com/watch?v=-dpt62XaAQM
+
+asynchronous reset 
 
