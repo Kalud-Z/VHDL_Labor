@@ -2,93 +2,22 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Sun Apr 18 14:55:41 2021
-# Process ID: 17428
-# Current directory: C:/Users/Kalud/Desktop/Studium/Studium_ab_2020/SS2021/Faecher/VHDL/Labor/__Versuch_1/vivado/intro1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8612 C:\Users\Kalud\Desktop\Studium\Studium_ab_2020\SS2021\Faecher\VHDL\Labor\__Versuch_1\vivado\intro1\intro1.xpr
-# Log file: C:/Users/Kalud/Desktop/Studium/Studium_ab_2020/SS2021/Faecher/VHDL/Labor/__Versuch_1/vivado/intro1/vivado.log
-# Journal file: C:/Users/Kalud/Desktop/Studium/Studium_ab_2020/SS2021/Faecher/VHDL/Labor/__Versuch_1/vivado/intro1\vivado.jou
+# Start of session at: Fri Apr 30 09:06:57 2021
+# Process ID: 12892
+# Current directory: C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/vivado/intro1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20260 C:\Users\Kalud\Desktop\Studium\Studium_ab_2020_Code\VHDL\Labor\vivado\intro1\intro1.xpr
+# Log file: C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/vivado/intro1/vivado.log
+# Journal file: C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/vivado/intro1\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/Kalud/Desktop/Studium/Studium_ab_2020/SS2021/Faecher/VHDL/Labor/__Versuch_1/vivado/intro1/intro1.xpr
-update_compile_order -fileset sources_1
-source C:/Users/Kalud/Desktop/Studium/Studium_ab_2020/SS2021/Faecher/VHDL/Labor/__Versuch_1/vorlagen/testbench_generator/generate_testbench.tcl
-launch_simulation
-source tb.tcl
-close_sim
-close_project
-open_project -read_only C:/Users/Kalud/Desktop/gaming/intro11/intro1.xpr
+open_project C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/vivado/intro1/intro1.xpr
 update_compile_order -fileset sources_1
 close_project
-open_project C:/Users/Kalud/Desktop/Studium/Studium_ab_2020/SS2021/Faecher/VHDL/Labor/__Versuch_1/vivado/intro1/intro1.xpr
+open_project C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/vivado/counter_1_to_6/counter_1_to_6.xpr
 update_compile_order -fileset sources_1
-launch_simulation
-source tb.tcl
-current_wave_config {Untitled 2}
-add_wave {{/tb/uut/q}} 
-current_wave_config {Untitled 2}
-add_wave {{/tb/uut/q_ns}} 
-restart
-run 100 ns
-run 100 ns
-run 100 ns
-run 100 ns
-run 100 ns
-run 100 ns
-run 100 ns
-run 100 ns
-run 100 ns
-run 100 ns
-run 1000 ns
-relaunch_sim
-restart
-run 100 ns
-current_wave_config {Untitled 2}
-add_wave {{/tb/uut/clk}} 
-current_wave_config {Untitled 2}
-add_wave {{/tb/uut/reset}} 
-relaunch_sim
-restart
-run 100 ns
-run 100 ns
-run 100 ns
-run 100 ns
-relaunch_sim
-restart
-run 100 ns
-current_wave_config {Untitled 2}
-add_wave {{/tb/uut/clk}} 
-current_wave_config {Untitled 2}
-add_wave {{/tb/uut/reset}} 
-run 100 ns
-run 100 ns
-current_wave_config {Untitled 2}
-add_wave {{/tb/uut/q}} 
-current_wave_config {Untitled 2}
-add_wave {{/tb/uut/q_ns}} 
-save_wave_config {C:/Users/Kalud/Desktop/Studium/Studium_ab_2020/SS2021/Faecher/VHDL/Labor/__Versuch_1/vivado/intro1/tb_behav.wcfg}
-add_files -fileset sim_1 -norecurse C:/Users/Kalud/Desktop/Studium/Studium_ab_2020/SS2021/Faecher/VHDL/Labor/__Versuch_1/vivado/intro1/tb_behav.wcfg
-set_property xsim.view C:/Users/Kalud/Desktop/Studium/Studium_ab_2020/SS2021/Faecher/VHDL/Labor/__Versuch_1/vivado/intro1/tb_behav.wcfg [get_filesets sim_1]
-restart
-run 450 ns
-current_wave_config {tb_behav.wcfg}
-add_wave {{/tb/uut/q_out}} 
-restart
-run 650 ns
-save_wave_config {C:/Users/Kalud/Desktop/Studium/Studium_ab_2020/SS2021/Faecher/VHDL/Labor/__Versuch_1/vivado/intro1/tb_behav.wcfg}
-save_wave_config {C:/Users/Kalud/Desktop/Studium/Studium_ab_2020/SS2021/Faecher/VHDL/Labor/__Versuch_1/vivado/intro1/tb_behav.wcfg}
-set_property SOURCE_SET sources_1 [get_filesets sim_1]
-import_files -fileset sim_1 -norecurse C:/Users/Kalud/Desktop/Studium/Studium_ab_2020/SS2021/Faecher/VHDL/Labor/__Versuch_1/vorlagen/vorlagen_v1/sttb_counter4.vhd
-update_compile_order -fileset sim_1
-# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
-set_property source_mgmt_mode None [current_project]
-set_property top sttb [get_filesets sim_1]
-set_property top_lib xil_defaultlib [get_filesets sim_1]
-# Re-enabling previously disabled source management mode.
-set_property source_mgmt_mode All [current_project]
-update_compile_order -fileset sim_1
-assert 3 = 2 + 2;
-launch_simulation
-launch_simulation
-close_sim
 close_project
+open_project C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/vivado/dec7seg/dec7seg.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Kalud/Desktop/Studium/Studium_ab_2020_Code/VHDL/Labor/vivado/counter_1_to_6/counter_1_to_6.xpr
+update_compile_order -fileset sources_1

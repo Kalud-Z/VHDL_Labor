@@ -13,9 +13,7 @@ entity dec7seg_c is
 end dec7seg_c;
 
 
-architecture Behavioral of dec7seg_c is
-    --signal seg7 : std_logic_vector (6 downto 0);
-    
+architecture Behavioral of dec7seg_c is    
 begin
   
     process(data)
@@ -48,18 +46,7 @@ begin
         seg_e <= seg7(2);
         seg_f <= seg7(1);
         seg_g <= seg7(0);
-       
-       
---        seg_a <= seg7(0);
---        seg_b <= seg7(1);
---        seg_c <= seg7(2);
---        seg_d <= seg7(3);
---        seg_e <= seg7(4);
---        seg_f <= seg7(5);
---        seg_g <= seg7(6);
-         
-        
-    
+              
      end process;
     
 end Behavioral;

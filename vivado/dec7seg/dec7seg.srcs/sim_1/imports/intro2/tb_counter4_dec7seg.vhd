@@ -7,7 +7,7 @@ end entity tb;
 
 architecture struct of tb is
 
-	component counter4_dec7seg is
+	component counter4_dec7seg is  -- component instantiation (Strukturbeschreibung)
 		port (
 			clk   : in std_logic;
 			reset : in std_logic;
@@ -53,7 +53,7 @@ begin
 		cnt(3 downto 0) => tb_cnt(3 downto 0)
 	);
 
-	clk_process: process
+	clk_process: process  -- Prozessen => Verhaltensbeschreibung
 	begin
 		tb_clk <= '0';
 		wait for clk_period / 2;
